@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', function () {
     onScroll();
   }
 
-  var form = document.querySelector('.contact-form');
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var note = form.querySelector('.form-note');
-      if (note) note.textContent = 'This form needs an email service connected before it will actually send — see setup notes.';
-    });
-  }
+  // var form = document.querySelector('.contact-form');
+  // if (form) {
+  //   form.addEventListener('submit', function (e) {
+  //     e.preventDefault();
+  //     var note = form.querySelector('.form-note');
+  //     if (note) note.textContent = 'This form needs an email service connected before it will actually send — see setup notes.';
+  //   });
+  // }
 });
